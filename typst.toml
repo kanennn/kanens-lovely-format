@@ -1,0 +1,7 @@
+[package]
+name = "Kanen's Lovely Format"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Kanen Stephens"]
+license = "MIT"
+description = "A lovely essay format by Kanen Stephens :D"

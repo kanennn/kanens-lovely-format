@@ -1,5 +1,5 @@
 #import "@preview/droplet:0.3.1": dropcap
-#let format(
+#let conf(
   doc,
   title_text: "this is a title",
   name: "bob the tomato",

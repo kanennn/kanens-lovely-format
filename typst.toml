@@ -1,7 +1,7 @@
 [package]
-name = "Kanen's Lovely Format"
+name = "klf"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Kanen Stephens"]
 license = "MIT"
-description = "A lovely essay format by Kanen Stephens :D"
+description = "Kanen's Lovely Format -- A lovely essay format by Kanen Stephens :D"

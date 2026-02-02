@@ -17,7 +17,7 @@
   }
 
   set document(title: title_text, author: str(name))
-  set text(size: 11pt, font: "Drafting* Mono", weight: 400)
+  set text(size: 11pt, font: "Drafting* Mono", weight: 400) //Drafting Mono from indestructible type!!
   set document(title: title_text, author: str(name))
   set par(
     leading: 1em,

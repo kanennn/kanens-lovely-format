@@ -6,6 +6,7 @@
   prof: "Dr. Doofenshmirtz",
   class: "AB 123",
   date: datetime(year: 1967, month: 4, day: 1),
+  workscited: none,
   abstract: lorem(40),
 ) = {
   show title: it => {
@@ -16,6 +17,8 @@
     it
   }
 
+  show heading.where(level: 1): set text(20pt)
+  show heading.where(level: 1): set block(below: 1em)
   set document(title: title_text, author: str(name))
   set text(size: 11pt, font: "Drafting* Mono", weight: 400) //Drafting Mono from indestructible type!!
   set document(title: title_text, author: str(name))
@@ -61,4 +64,10 @@
   )
   dropcap(height: 2, justify: true, gap: -1.3em, overhang: 0.3em, doc)
   align(center + horizon)[\* \* \*]
+  if workscited != none {
+    page({
+      heading(level: 1)[Works Cited]
+      workscited
+    })
+  }
 }

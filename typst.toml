@@ -1,6 +1,6 @@
 [package]
-name = "klf"
-version = "0.1.2"
+name = "kanens-lovely-format"
+version = "0.2.1"
 entrypoint = "lib.typ"
 authors = ["Kanen Stephens"]
 license = "MIT"
